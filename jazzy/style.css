@@ -25,6 +25,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
+# Global
+	- Color pallet
 # Generic
 	- Normalize
 	- Box sizing
@@ -49,6 +51,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Alignments
 
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+/* Color pallet
+--------------------------------------------- */
+
+:root {
+	--lemon-curry: #BEA025;
+	--apple-green: #90BE25;
+	--sinopia: #BE5425;
+	--black: #000;
+	--white: #fff;
+}
 
 /*--------------------------------------------------------------
 # Generic
