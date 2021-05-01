@@ -64,7 +64,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 :root {
 	--lemon-curry: #BEA025;
-	--lemon-curry-light: #DABC42;
+	--old-gold: #DABC42;
 	--apple-green: #90BE25;
 	--sinopia: #BE5425;
 	--black: #000;
@@ -736,7 +736,7 @@ textarea {
 }
 
 .menu-item:hover {
-	background: var(--lemon-curry-light);
+	background: var(--old-gold);
 }
 
 .menu-item a {
