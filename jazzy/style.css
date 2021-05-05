@@ -39,7 +39,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Forms
 ## Layouts
 # Components
-	- Header
 	- Navigation
 	- Posts and pages
 	- Comments
@@ -64,7 +63,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 :root {
 	--lemon-curry: #BEA025;
-	--old-gold: #DABC42;
 	--apple-green: #90BE25;
 	--sinopia: #BE5425;
 	--black: #000;
@@ -667,20 +665,9 @@ textarea {
 # Components
 --------------------------------------------------------------*/
 
-/* Header
---------------------------------------------- */
-.site-branding {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 50px;
-}
-
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	border-top: var(--black) solid 6px;
-	background: var(--lemon-curry);
 	display: block;
 	width: 100%;
 }
@@ -713,7 +700,7 @@ textarea {
 }
 
 .main-navigation ul ul a {
-	width: 150px;
+	width: 200px;
 }
 
 .main-navigation ul li:hover > ul,
@@ -723,29 +710,11 @@ textarea {
 
 .main-navigation li {
 	position: relative;
-	background: var(--lemon-curry);
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-}
-
-.menu-item {
-	padding: 20px;
-}
-
-.menu-item:hover {
-	background: var(--old-gold);
-}
-
-.menu-item a {
-	font-size: 18px;
-	color: var(--white);
-}
-
-.current-menu-item a {
-	color: var(--white);
 }
 
 /* Small menu. */
@@ -852,8 +821,6 @@ textarea {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
-	width: 200px;
-	height: 200px;
 }
 
 /* Captions
