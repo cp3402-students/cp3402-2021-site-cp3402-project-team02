@@ -771,6 +771,23 @@ textarea {
     color: var(--white);
 }
 
+.menu-item {
+	padding: 20px;
+}
+
+.menu-item:hover {
+	background: var(--old-gold);
+}
+
+.menu-item a {
+	font-size: 18px;
+	color: var(--white);
+}
+
+.current-menu-item a {
+	color: var(--white);
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
