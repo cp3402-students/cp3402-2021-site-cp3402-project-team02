@@ -440,7 +440,7 @@ h6 {
     clear: both;
     font-family: "Roboto Condensed", sans-serif;
     color: var(--black);
-    text-shadow: 0 2px 2px var(--lemon-curry);
+    /*text-shadow: 0 2px 2px var(--lemon-curry);*/
 }
 
 h1,
@@ -570,17 +570,17 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-    color: #4169e1;
+    color: var(--sinopia);
 }
 
 a:visited {
-    color: #800080;
+    color: var(--lemon-curry);
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #191970;
+    color: var(--old-gold);
 }
 
 a:focus {
@@ -590,6 +590,18 @@ a:focus {
 a:hover,
 a:active {
     outline: 0;
+}
+
+/* Header Links
+--------------------------------------------- */
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    text-decoration: none;
 }
 
 /* Forms
