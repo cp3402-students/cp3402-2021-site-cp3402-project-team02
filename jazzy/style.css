@@ -789,6 +789,15 @@ textarea {
 }
 
 /* Small menu. */
+.menu-toggle {
+    color: var(--white);
+    background-color: var(--old-gold);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    font-size: 18px;
+}
+
 .menu-toggle,
 .main-navigation.toggled ul {
     display: block;
@@ -802,6 +811,7 @@ textarea {
 
     .main-navigation ul {
         display: flex;
+        justify-content: center;
     }
 }
 
