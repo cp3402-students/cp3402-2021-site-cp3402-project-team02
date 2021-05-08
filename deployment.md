@@ -37,8 +37,10 @@ Follow the steps below to add the Jazzy GitHub theme repository to your WordPres
 ## Project management
 TODO
 
-## Deployment
-### Staging deployment
-TODO
-### Production deployment
-TODO
+## Deployment & Web Hosting
+Two websites that automatically track the commit history (when a change is pushed to main or staging, the website will automatically update) for the main and staging branches have been deployed on Amazon Web Services. Both of the websites are deployed on the same EC2 instance with the use of Apache Virtual Hosts.
+
+Web Address | Name
+------------- | -------------
+[https://production.callumdennien.com](https://production.callumdennien.com) | Production website
+[https://staging.callumdennien.com](https://staging.callumdennien.com) | Staging website
