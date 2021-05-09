@@ -547,6 +547,12 @@ dd {
     margin: 0 1.5em 1.5em;
 }
 
+.button-primary {
+    background-color: var(--lemon-curry);
+    color: var(--white);
+    border-radius: 0;
+}
+
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
@@ -891,6 +897,40 @@ textarea {
 
 .widget select {
     max-width: 100%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -5px;
+    background-color: var(--white);
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+    border-left: 5px solid var(--lemon-curry);
+}
+
+.sidebar .close-btn {
+    white-space: nowrap;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 17px;
+}
+
+.sidebar-toggle:hover {
+    background-color: var(--old-gold);
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
 }
 
 /* Media
