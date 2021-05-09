@@ -41,4 +41,5 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
+        <!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->
 	</header><!-- #masthead -->
