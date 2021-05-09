@@ -17,3 +17,40 @@ Follow the steps for each of the below plugins to get them set up properly.
 TODO
 #### Widget for Social Page Feeds
 TODO
+#### Meta Slider
+1. Ensure the plugin is installed and activated.
+
+2. In the WordPress admin panel click on the MetaSlider link in the left navigation sidebar.
+
+3. Once the MetaSlider dashboard has opened, create a slideshow and add suitable media slides.
+
+4. Settings for the slideshow can be found on the right of the MetaSlider dashboard, follow the suggested configuration below.
+
+##### Regular settings
+
+Setting Name | Suggested Value
+-------------|----------------
+Slideshow type | Nivo slider
+Width | 700px
+Height | 180px
+Effect | Random
+Arrows | YES
+Navigation | Hidden
+
+##### Advanced settings
+
+Setting Name | Suggested Value
+-------------|----------------
+Slideshow type | Nivo slider
+100% width | YES
+Center align | YES
+Auto play | YES
+Arrows | YES
+
+5. After the slideshow has been created and the settings have been configured, the shortcode for the slideshow must be added to the `header.php` theme file. On the MetaSlider dashboard, copy the PHP code from the 'How to Use' card. This should something like `<?php echo do_shortcode('[metaslider id=""]'); ?>`
+
+6. To add the PHP code to the theme `header.php` theme file go to the WordPress dashboard and select `Appearance > Theme Editor` from the left navigation sidebar.
+
+7. Open the Theme Header PHP file (`header.php`) and replace `<!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->` with the PHP code you copied to your clipboard.
+
+8. Save the theme file and confirm that the plugin is working properly by visiting any page on the website.
