@@ -28,6 +28,7 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php the_custom_logo(); ?>
+            <!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
@@ -41,5 +42,4 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
-        <!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->
 	</header><!-- #masthead -->
