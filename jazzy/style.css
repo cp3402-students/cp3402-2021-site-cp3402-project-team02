@@ -700,10 +700,10 @@ textarea {
 /* Header
 --------------------------------------------- */
 .site-branding {
+    z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
 }
 
 /* Navigation
@@ -946,9 +946,12 @@ textarea {
 
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
+    z-index: 999;
+    position: absolute;
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 25%;
+    height: auto;
+    margin: 50%;
 }
 
 /* Captions
@@ -1020,6 +1023,10 @@ textarea {
 
 .gallery-caption {
     display: block;
+}
+
+.nivoSlider {
+    opacity: .6;
 }
 
 /*--------------------------------------------------------------
