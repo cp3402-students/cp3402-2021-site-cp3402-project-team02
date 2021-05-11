@@ -14,7 +14,30 @@ Meta Slider | Easy to use slideshow plugin. Create SEO optimised responsive slid
 ### Extra plugin steps
 Follow the steps for each of the below plugins to get them set up properly.
 #### WP Pusher
-TODO
+1. Ensure the plugin is installed and activated.
+
+2. In the WordPress admin panel click on the WP Pusher link in the left navigation sidebar.
+
+3. Once in the WP Pusher dashboard complete the following steps.
+
+4. Open the GitHub tab and click the Obtain a GitHub token button and follow the steps.
+
+5. To save your changes click save.
+
+6. Click on the Install Theme link in the left navigation sidebar under WP Pusher.
+
+7. Follow the suggested configuration below.
+
+Setting Name | Suggested Value
+-------------|----------------
+Repository host | GitHub
+Theme repository | Enter the URL of your repository
+Repository branch | Enter the name of the branch to track
+Repository subdirectory | jazzy
+Push to deploy | YES
+
+8. Click Install theme when complete.
+
 #### Widget for Social Page Feeds
 1. Ensure the plugin is installed and activated.
 
