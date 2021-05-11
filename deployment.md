@@ -35,7 +35,7 @@ Follow the steps below to add the Jazzy GitHub theme repository to your WordPres
 6. After selecting the theme, verify that it is working properly by viewing the WordPress websites home page.
 
 ## Project management
-TODO
+A [Trello Kanban board](https://trello.com/b/euLtVLL8/web-project-dev) has been created to track the progress of several project actions. Use this Kanban board to post details, actions and ideas. Move the Kanban cards around and assign them to contributors as needed.
 
 ## Deployment & Web Hosting
 Two websites that automatically track the commit history (when a change is pushed to main or staging, the website will automatically update) for the main and staging branches have been deployed on Amazon Web Services. Both of the websites are deployed on the same EC2 instance with the use of Apache Virtual Hosts.
