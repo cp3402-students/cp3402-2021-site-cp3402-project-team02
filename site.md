@@ -16,7 +16,23 @@ Follow the steps for each of the below plugins to get them set up properly.
 #### WP Pusher
 TODO
 #### Widget for Social Page Feeds
-TODO
+1. Ensure the plugin is installed and activated.
+
+2. In the WordPress admin panel and select `Appearance > Widgets` from the left navigation sidebar.
+
+3. Drag the `Facebook Page Like Widget` from Available Widgets to the sidebar card.
+
+4. Settings for the widget can be found by clicking the dropdown arrow icon on the widget card, follow the suggested configuration below.
+
+Setting Name | Suggested Value
+-------------|----------------
+Title |
+Facebook Page Url | https://www.facebook.com/yourfacebookpage
+Set Width | 300px
+Set Height | 800px
+
+5. To save your changes click save.
+
 #### Meta Slider
 1. Ensure the plugin is installed and activated.
 
