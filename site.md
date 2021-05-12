@@ -1,6 +1,9 @@
 # Maintaining the site
 Follow the instructions below to maintain the site.
 
+#### Table of Contents  
+1. Required plugins
+___
 ## Required plugins
 The following plugins must be installed for the website to function as expected. Please install them and follow the extra steps where required.
 Plugin Name | Plugin Description | Plugin Link | Extra Steps Required
