@@ -952,6 +952,23 @@ textarea {
      font-size: 20px;
  }
 
+ .footer-content-right {
+     padding-right: 40px;
+     margin-top: 20px;
+     float: right;
+ }
+
+ .icon-style {
+     height: 40px;
+     margin-left: 20px;
+     margin-top: 5px;
+ }
+
+ .icon-style:hover {
+     background-color: #DABC42;
+     padding: 5px;
+ }
+
 
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
