@@ -928,6 +928,17 @@ textarea {
     background-color: var(--old-gold);
 }
 
+ .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #DABC42;
+     color: #000000;
+     text-align: center;
+ }
+
+
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
