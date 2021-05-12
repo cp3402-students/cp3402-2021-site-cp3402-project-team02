@@ -933,10 +933,23 @@ textarea {
      left: 0;
      bottom: 0;
      width: 100%;
-     background-color: #DABC42;
+     height: 90px;
+     background-color: #BEA025;
      color: #000000;
      text-align: center;
 
+ }
+
+ .footer-text-left {
+     font-size: 25px;
+     padding-left: 40px;
+     float: left;
+     word-spacing: 20px;
+ }
+
+ a.menu:hover {
+     background-color: #DABC42;
+     font-size: 20px;
  }
 
 
