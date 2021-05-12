@@ -8,11 +8,11 @@ ___
 The following plugins must be installed for the website to function as expected. Please install them and follow the extra steps where required.
 Plugin Name | Plugin Description | Plugin Link | Extra Steps Required
 --------|--------|--------|--------
-Font awesome | The official way to use Font Awesome Free or Pro icons on your site, brought to you by the Font Awesome team. | [https://wordpress.org/plugins/font-awesome/](https://wordpress.org/plugins/font-awesome/)| NO
-Really Simple SSL | Lightweight plugin without any setup to make your site SSL proof. | [https://wordpress.org/plugins/really-simple-ssl/](https://wordpress.org/plugins/really-simple-ssl/) | NO
-WP Pusher | Pain-free deployment of WordPress themes and plugins directly from GitHub. | [https://wppusher.com/](https://wppusher.com/)| YES
-Widget for Social Page Feeds | This widget adds a Simple Facebook Page Like widget into your WordPress website sidebar within a few minutes. |[https://wordpress.org/plugins/facebook-pagelike-widget/](https://wordpress.org/plugins/facebook-pagelike-widget/) | YES
-Meta Slider | Easy to use slideshow plugin. Create SEO optimised responsive slideshows with Nivo Slider, Flex Slider, Coin Slider and Responsive Slides. | [https://wordpress.org/plugins/ml-slider/](https://wordpress.org/plugins/ml-slider/) | YES
+**Font awesome** | The official way to use Font Awesome Free or Pro icons on your site, brought to you by the Font Awesome team. | [https://wordpress.org/plugins/font-awesome/](https://wordpress.org/plugins/font-awesome/)| NO
+**Really Simple SSL** | Lightweight plugin without any setup to make your site SSL proof. | [https://wordpress.org/plugins/really-simple-ssl/](https://wordpress.org/plugins/really-simple-ssl/) | NO
+**WP Pusher** | Pain-free deployment of WordPress themes and plugins directly from GitHub. | [https://wppusher.com/](https://wppusher.com/)| YES
+**Widget for Social Page Feeds** | This widget adds a Simple Facebook Page Like widget into your WordPress website sidebar within a few minutes. |[https://wordpress.org/plugins/facebook-pagelike-widget/](https://wordpress.org/plugins/facebook-pagelike-widget/) | YES
+**Meta Slider** | Easy to use slideshow plugin. Create SEO optimised responsive slideshows with Nivo Slider, Flex Slider, Coin Slider and Responsive Slides. | [https://wordpress.org/plugins/ml-slider/](https://wordpress.org/plugins/ml-slider/) | YES
 
 ### Extra plugin steps
 Follow the steps for each of the below plugins to get them set up properly.
@@ -33,11 +33,11 @@ Follow the steps for each of the below plugins to get them set up properly.
 
 Setting Name | Suggested Value
 -------------|----------------
-Repository host | GitHub
-Theme repository | Enter the URL of your repository
-Repository branch | Enter the name of the branch to track
-Repository subdirectory | jazzy
-Push to deploy | YES
+**Repository host** | GitHub
+**Theme repository** | Enter the URL of your repository
+**Repository branch** | Enter the name of the branch to track
+**Repository subdirectory** | jazzy
+**Push to deploy** | YES
 
 8. Click Install theme when complete.
 
@@ -52,10 +52,10 @@ Push to deploy | YES
 
 Setting Name | Suggested Value
 -------------|----------------
-Title |
-Facebook Page Url | https://www.facebook.com/yourfacebookpage
-Set Width | 300px
-Set Height | 800px
+**Title** |
+**Facebook Page Url** | https://www.facebook.com/yourfacebookpage
+**Set Width** | 300px
+**Set Height** | 800px
 
 5. To save your changes click save.
 
@@ -72,22 +72,22 @@ Set Height | 800px
 
 Setting Name | Suggested Value
 -------------|----------------
-Slideshow type | Nivo slider
-Width | 700px
-Height | 180px
-Effect | Random
-Arrows | YES
-Navigation | Hidden
+**Slideshow type** | Nivo slider
+**Width** | 700px
+**Height** | 180px
+**Effect** | Random
+**Arrows** | YES
+**Navigation** | Hidden
 
 ##### Advanced settings
 
 Setting Name | Suggested Value
 -------------|----------------
-Slideshow type | Nivo slider
-100% width | YES
-Center align | YES
-Auto play | YES
-Arrows | YES
+**Slideshow type** | Nivo slider
+**100% width** | YES
+**Center align** | YES
+**Auto play** | YES
+**Arrows** | YES
 
 5. After the slideshow has been created and the settings have been configured, the shortcode for the slideshow must be added to the `header.php` theme file. On the MetaSlider dashboard, copy the PHP code from the 'How to Use' card. This should something like `<?php echo do_shortcode('[metaslider id=""]'); ?>`
 
