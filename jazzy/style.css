@@ -928,6 +928,50 @@ textarea {
     background-color: var(--old-gold);
 }
 
+.site-info {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    color: var(--black);
+    background-color: var(--lemon-curry);
+}
+
+.site-info a {
+    padding: 0 0 0 5px;
+    color: var(--black);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-info a:hover {
+    color: var(--sinopia);
+    font-size: 18px;
+    transition: all 5ms ease-in;
+}
+
+.social-info {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 50px;
+    background-color: var(--old-gold);
+}
+
+.social-info i {
+    color: var(--black);
+    padding: 0 20px;
+}
+
+.social-info i:hover {
+    color: var(--sinopia);
+    font-size: 18px;
+    transition: all 5ms ease-in;
+}
+
+
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
