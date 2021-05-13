@@ -3,6 +3,7 @@ Follow the instructions below to maintain the site.
 
 #### Table of Contents  
 1. Required plugins
+2. Footer customisation
 ___
 ## Required plugins
 The following plugins must be installed for the website to function as expected. Please install them and follow the extra steps where required.
@@ -96,3 +97,14 @@ Setting Name | Suggested Value
 7. Open the Theme Header PHP file (`header.php`) and replace `<!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->` with the PHP code you copied to your clipboard.
 
 8. Save the theme file and confirm that the plugin is working properly by visiting any page on the website.
+
+## Footer Customisation
+The Jazzy theme allows for several links that are represented visually with an icon to be added to the footer. Follow the steps below to do this.
+
+1. In the WordPress admin panel and select `Appearance > Menus` from the left navigation sidebar.
+
+2. Click the `create a new menu` button.
+
+3. Call the new menu `Footer` and assign it to the `Footer Menu` display location.
+
+3. To add a link, select `Custom Links` under the `Add menu items` menu and enter the URL of the link that you wish to add. Enter an icon name from [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2) into the `Link Text` field and click `Add to menu` when done.
