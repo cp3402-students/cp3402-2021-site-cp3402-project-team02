@@ -13,9 +13,14 @@
 
 <footer id="colophon" class="site-footer">
     <div class="social-info">
-        <a href="https://www.facebook.com/Townsville-Jazz-Club-Inc-354976484531491/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="mailto:townsvillejazz@icloud.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
-        <a href="tel:0413456542"><i class="fas fa-phone" aria-hidden="true"></i></i></a>
+        <?php
+
+            // custom footer links
+            foreach ( wp_get_nav_menu_items( 'footer' ) as $menuItem ) {
+                echo '<a href="' . $menuItem->url . '"><i class="' . $menuItem->title . '"></i></a>';
+            }
+
+        ?>
     </div>
     <div class="site-info">
         <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jazzy' ) ); ?>">
