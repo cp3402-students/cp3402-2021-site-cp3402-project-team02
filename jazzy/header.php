@@ -29,7 +29,14 @@
 		<div class="site-branding">
 			<?php the_custom_logo(); ?>
             <!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->
-		</div><!-- .site-branding -->
+        </div><!-- .site-branding -->
+
+        <div class="media-player">
+            <?php
+            $music_file = get_theme_mod( 'audio-url' );
+            echo do_shortcode('[audio mp3=' . $music_file . ']');
+            ?>
+        </div>
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'MENU', 'jazzy' ); ?></button>

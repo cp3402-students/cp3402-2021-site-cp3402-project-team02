@@ -709,7 +709,6 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-    border-top: var(--black) solid 6px;
     background: var(--lemon-curry);
     display: block;
     width: 100%;
