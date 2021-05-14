@@ -91,13 +91,11 @@ Setting Name | Suggested Value
 **Auto play** | YES
 **Arrows** | YES
 
-5. After the slideshow has been created and the settings have been configured, the shortcode for the slideshow must be added to the `header.php` theme file. On the MetaSlider dashboard, copy the PHP code from the 'How to Use' card. This should something like `<?php echo do_shortcode('[metaslider id=""]'); ?>`
+5. After the slideshow has been created and the settings have been configured, the id of the slideshow must be added to the `Customizer > Image Slider` settings. On the MetaSlider dashboard, copy the only the id value from the 'How to Use' card. Do not copy the entire PHP code.
 
-6. To add the PHP code to the theme `header.php` theme file go to the WordPress dashboard and select `Appearance > Theme Editor` from the left navigation sidebar.
+6. To add the slideshow id to the site go to the WordPress dashboard and select `Customizer > Image Slider` from the left navigation sidebar.
 
-7. Open the Theme Header PHP file (`header.php`) and replace `<!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->` with the PHP code you copied to your clipboard.
-
-8. Save the theme file and confirm that the plugin is working properly by visiting any page on the website.
+7. Enter the id of the slideshow into the `Slider ID` field.
 
 ## Footer Customisation
 The Jazzy theme allows for several links that are represented visually with an icon to be added to the footer. Follow the steps below to do this.
@@ -115,4 +113,4 @@ The Jazzy theme allows for an audio file to be added below the image slider bann
 
 1. In the WordPress admin panel select `Customize > Media Player` from the left navigation sidebar.
 
-2. Enter the URL of the `mp3` audio file you wish to add into the `URL` field. 
+2. Enter the URL of the `MP3` audio file you wish to add into the `URL` field. 
