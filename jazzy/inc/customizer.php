@@ -31,6 +31,19 @@ function jazzy_customize_register( $wp_customize ) {
 			)
 		);
 	}
+
+	// Media Player
+    $wp_customize->add_section(
+        'media-player',
+        array(
+            'title' => __('Media Player', 'jazzy'),
+            'priority' => 30,
+            'description' => __('Enter the URL to your media file that your want to play', 'jazzy')
+        )
+    );
+
+    $wp_customize->add_setting( 'audio-url', array( 'default' => '' ) );
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'audio-url', array( 'label' => __( 'URL', 'jazzy' ), 'section' => 'media-player', 'settings' => 'audio-url', ) ) );
 }
 add_action( 'customize_register', 'jazzy_customize_register' );
 
