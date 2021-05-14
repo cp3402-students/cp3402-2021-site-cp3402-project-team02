@@ -4,6 +4,7 @@ Follow the instructions below to maintain the site.
 #### Table of Contents  
 1. Required plugins
 2. Footer customisation
+3. Media player customisation
 ___
 ## Required plugins
 The following plugins must be installed for the website to function as expected. Please install them and follow the extra steps where required.
@@ -108,3 +109,10 @@ The Jazzy theme allows for several links that are represented visually with an i
 3. Call the new menu `Footer` and assign it to the `Footer Menu` display location.
 
 3. To add a link, select `Custom Links` under the `Add menu items` menu and enter the URL of the link that you wish to add. Enter an icon name from [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2) into the `Link Text` field and click `Add to menu` when done.
+
+## Media Player Customisation 
+The Jazzy theme allows for an audio file to be added below the image slider banner. Follow the steps below to do this.
+
+1. In the WordPress admin panel select `Customize > Media Player` from the left navigation sidebar.
+
+2. Enter the URL of the `mp3` audio file you wish to add into the `URL` field. 
