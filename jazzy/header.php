@@ -28,7 +28,11 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php the_custom_logo(); ?>
-            <!-- REPLACE THIS COMMENT WITH META-SLIDER SHORTCODE PHP CODE -->
+
+            <?php
+            $slider_id = get_theme_mod( 'slider-id' );
+            echo do_shortcode('[metaslider id="' . $slider_id . '"]');
+            ?>
         </div><!-- .site-branding -->
 
         <div class="media-player">

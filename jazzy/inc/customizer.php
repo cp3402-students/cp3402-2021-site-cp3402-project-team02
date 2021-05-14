@@ -32,7 +32,21 @@ function jazzy_customize_register( $wp_customize ) {
 		);
 	}
 
-	// Media Player
+	// Image Slider
+    $wp_customize->add_section(
+        'image-slider',
+        array(
+            'title' => __('Image Slider', 'jazzy'),
+            'priority' => 30,
+            'description' => __('Enter the ID of your MetaSlider slider.', 'jazzy')
+        )
+    );
+
+    $wp_customize->add_setting( 'slider-id', array( 'default' => '' ) );
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'slider-id', array( 'label' => __( 'Slider ID', 'jazzy' ), 'section' => 'image-slider', 'settings' => 'slider-id', ) ) );
+
+
+    // Media Player
     $wp_customize->add_section(
         'media-player',
         array(
