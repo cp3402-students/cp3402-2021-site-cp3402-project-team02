@@ -33,7 +33,7 @@
 
         <div class="media-player">
             <?php
-            $music_file = get_site_url() . '/wp-content/uploads/2021/05/Jazz-Preachers-Dr-Jazz.mp3';
+            $music_file = get_theme_mod( 'audio-url' );
             echo do_shortcode('[audio mp3=' . $music_file . ']');
             ?>
         </div>
