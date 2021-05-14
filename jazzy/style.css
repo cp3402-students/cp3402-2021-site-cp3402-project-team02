@@ -771,6 +771,7 @@ textarea {
 .menu-item a {
     font-size: 18px;
     color: var(--white);
+    text-transform: uppercase;
 }
 
 .current-menu-item a {
@@ -792,6 +793,7 @@ textarea {
 
 .current-menu-item a {
 	color: var(--white);
+    text-decoration: underline;
 }
 
 /* Small menu. */
