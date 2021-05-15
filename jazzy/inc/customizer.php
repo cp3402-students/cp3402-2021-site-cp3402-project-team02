@@ -58,6 +58,31 @@ function jazzy_customize_register( $wp_customize ) {
 
     $wp_customize->add_setting( 'audio-url', array( 'default' => '' ) );
     $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'audio-url', array( 'label' => __( 'URL', 'jazzy' ), 'section' => 'media-player', 'settings' => 'audio-url', ) ) );
+
+    // Footer Socials
+    $wp_customize->add_section(
+        'footer-socials',
+        array(
+            'title' => __('Footer Socials', 'jazzy'),
+            'priority' => 30,
+            'description' => __('Add social media accounts to the footer.')
+        )
+    );
+    // facebook, instagram, phone, email
+    $wp_customize->add_setting( 'facebook-url', array( 'default' => ''));
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'facebook-url', array( 'label' => __( 'Facebook profile URL', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'facebook-url', )));
+
+    // instagram
+    $wp_customize->add_setting( 'instagram-url', array( 'default' => ''));
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'instagram-url', array( 'label' => __( 'Instagram profile URL', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'instagram-url', )));
+
+    // phone
+    $wp_customize->add_setting( 'phone-number', array( 'default' => ''));
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'phone-number', array( 'label' => __( 'Phone number', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'phone-number', )));
+
+    // email
+    $wp_customize->add_setting( 'email-address', array( 'default' => ''));
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'email-address', array( 'label' => __( 'Email address', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'email-address', )));
 }
 add_action( 'customize_register', 'jazzy_customize_register' );
 

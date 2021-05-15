@@ -16,10 +16,21 @@
         <?php
 
             // custom footer links
-            foreach ( wp_get_nav_menu_items( 'footer' ) as $menuItem ) {
-                echo '<a href="' . $menuItem->url . '"><i class="' . $menuItem->title . '"></i></a>';
+            if (get_theme_mod( 'facebook-url' )) {
+                echo '<a href="' . get_theme_mod( 'facebook-url' ) . '"><i class="fa fa-facebook"></i></a>';
             }
 
+            if (get_theme_mod( 'instagram-url' )) {
+                echo '<a href="' . get_theme_mod( 'instagram-url' ) . '"><i class="fab fa-instagram-square"></i></a>';
+            }
+
+            if (get_theme_mod( 'phone-number' )) {
+                echo '<a href="tel:' . get_theme_mod( 'phone-number' ) . '"><i class="fas fa-phone"></i></a>';
+            }
+
+            if (get_theme_mod( 'email-address' )) {
+                echo '<a href="mailto:' . get_theme_mod( 'email-address' ) . '"><i class="fas fa-envelope"></i></a>';
+            }
         ?>
     </div>
     <div class="site-info">
