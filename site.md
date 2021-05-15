@@ -100,13 +100,11 @@ Setting Name | Suggested Value
 ## Footer Customisation
 The Jazzy theme allows for several links that are represented visually with an icon to be added to the footer. Follow the steps below to do this.
 
-1. In the WordPress admin panel and select `Appearance > Menus` from the left navigation sidebar.
+1. In the WordPress admin panel and select `Appearance > Customize > Footer Socials` from the left navigation sidebar.
 
-2. Click the `create a new menu` button.
+2. Add social and contact information into the relevant fields.
 
-3. Call the new menu `Footer` and assign it to the `Footer Menu` display location.
-
-3. To add a link, select `Custom Links` under the `Add menu items` menu and enter the URL of the link that you wish to add. Enter an icon name from [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2) into the `Link Text` field and click `Add to menu` when done.
+3. Click publish to save and publish.
 
 ## Media Player Customisation 
 The Jazzy theme allows for an audio file to be added below the image slider banner. Follow the steps below to do this.
