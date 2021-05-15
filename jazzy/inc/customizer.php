@@ -32,57 +32,117 @@ function jazzy_customize_register( $wp_customize ) {
 		);
 	}
 
-	// Image Slider
+	// image slider
     $wp_customize->add_section(
         'image-slider',
         array(
-            'title' => __('Image Slider', 'jazzy'),
-            'priority' => 30,
-            'description' => __('Enter the ID of your MetaSlider slider.', 'jazzy')
+            'title'       => __( 'Image Slider', 'jazzy' ),
+            'priority'    => 30,
+            'description' => __( 'Enter the ID of your MetaSlider slider.', 'jazzy' )
         )
     );
 
     $wp_customize->add_setting( 'slider-id', array( 'default' => '' ) );
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'slider-id', array( 'label' => __( 'Slider ID', 'jazzy' ), 'section' => 'image-slider', 'settings' => 'slider-id', ) ) );
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'slider-id',
+            array(
+                'label'    => __( 'Slider ID', 'jazzy' ),
+                'section'  => 'image-slider',
+                'settings' => 'slider-id'
+            )
+        )
+    );
 
-
-    // Media Player
+    // media player
     $wp_customize->add_section(
         'media-player',
         array(
-            'title' => __('Media Player', 'jazzy'),
-            'priority' => 30,
-            'description' => __('Enter the URL to your media file that your want to play', 'jazzy')
+            'title'       => __( 'Media Player', 'jazzy' ),
+            'priority'    => 30,
+            'description' => __( 'Enter the URL to your media file that your want to play', 'jazzy' )
         )
     );
 
     $wp_customize->add_setting( 'audio-url', array( 'default' => '' ) );
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'audio-url', array( 'label' => __( 'URL', 'jazzy' ), 'section' => 'media-player', 'settings' => 'audio-url', ) ) );
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'audio-url',
+            array(
+                'label'    => __( 'URL', 'jazzy' ),
+                'section'  => 'media-player',
+                'settings' => 'audio-url'
+            )
+        )
+    );
 
-    // Footer Socials
+    // footer socials
     $wp_customize->add_section(
         'footer-socials',
         array(
-            'title' => __('Footer Socials', 'jazzy'),
-            'priority' => 30,
-            'description' => __('Add social media accounts to the footer.')
+            'title'       => __( 'Footer Socials', 'jazzy' ),
+            'priority'    => 30,
+            'description' => __( 'Add social media accounts to the footer.' )
         )
     );
-    // facebook, instagram, phone, email
-    $wp_customize->add_setting( 'facebook-url', array( 'default' => ''));
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'facebook-url', array( 'label' => __( 'Facebook profile URL', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'facebook-url', )));
 
-    // instagram
-    $wp_customize->add_setting( 'instagram-url', array( 'default' => ''));
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'instagram-url', array( 'label' => __( 'Instagram profile URL', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'instagram-url', )));
+    // footer socials - facebook
+    $wp_customize->add_setting( 'facebook-url', array( 'default' => '' ) );
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'facebook-url',
+            array(
+                'label'    => __( 'Facebook profile URL', 'jazzy' ),
+                'section'  => 'footer-socials',
+                'settings' => 'facebook-url'
+            )
+        )
+    );
 
-    // phone
-    $wp_customize->add_setting( 'phone-number', array( 'default' => ''));
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'phone-number', array( 'label' => __( 'Phone number', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'phone-number', )));
+    // footer socials - instagram
+    $wp_customize->add_setting( 'instagram-url', array( 'default' => '' ) );
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'instagram-url',
+            array(
+                'label'    => __( 'Instagram profile URL', 'jazzy' ),
+                'section'  => 'footer-socials',
+                'settings' => 'instagram-url'
+            )
+        )
+    );
 
-    // email
-    $wp_customize->add_setting( 'email-address', array( 'default' => ''));
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'email-address', array( 'label' => __( 'Email address', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'email-address', )));
+    // footer socials - phone
+    $wp_customize->add_setting( 'phone-number', array( 'default' => '' ) );
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'phone-number',
+            array(
+                'label'    => __( 'Phone number', 'jazzy' ),
+                'section'  => 'footer-socials',
+                'settings' => 'phone-number'
+            )
+        )
+    );
+
+    // footer socials - email
+    $wp_customize->add_setting( 'email-address', array( 'default' => '' ) );
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'email-address',
+            array(
+                'label'    => __( 'Email address', 'jazzy' ),
+                'section'  => 'footer-socials',
+                'settings' => 'email-address'
+            )
+        )
+    );
 }
 add_action( 'customize_register', 'jazzy_customize_register' );
 

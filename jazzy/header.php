@@ -27,20 +27,20 @@
 
 	<header id="masthead" class="site-header">
 
-        <?php $sliderId = get_theme_mod( 'slider-id' ); ?>
+        <?php $slider_id = get_theme_mod( 'slider-id' ); ?>
 
-		<div class="site-branding <?php if (!$sliderId) echo "site-branding-padding" ?>">
+		<div class="site-branding <?php if ( !$slider_id ) echo 'site-branding-padding' ?>">
 			<?php
             the_custom_logo();
 
-            echo do_shortcode('[metaslider id="' . $sliderId . '"]');
+            echo do_shortcode( '[metaslider id="' . $slider_id . '"]' );
 			?>
         </div><!-- .site-branding -->
 
         <div class="media-player">
             <?php
             $music_file = get_theme_mod( 'audio-url' );
-            echo do_shortcode('[audio mp3=' . $music_file . ']');
+            echo do_shortcode( '[audio mp3=' . $music_file . ']' );
             ?>
         </div>
 
