@@ -5,6 +5,7 @@ Follow the instructions below to maintain the site.
 1. [Required plugins](#required-plugins)
 2. [Footer customisation](#footer-customisation)
 3. [Media player customisation](#media-player-customisation)
+4. [How to change the logo](#how-to-change-the-logo)
 ___
 ## Required plugins
 The following plugins must be installed for the website to function as expected. Please install them and follow the extra steps where required.
@@ -112,3 +113,10 @@ The Jazzy theme allows for an audio file to be added below the image slider bann
 1. In the WordPress admin panel select `Customize > Media Player` from the left navigation sidebar.
 
 2. Enter the URL of the `MP3` audio file you wish to add into the `URL` field. 
+
+## How to change the logo
+1. In the WordPress admin panel select `Appearance > Customize > Site Identity` from the left navigation sidebar.
+
+2. Click `Select logo` and upload the logo you wish to use for the website.
+
+3. Click publish to save and publish your changes.
