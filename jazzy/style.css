@@ -766,6 +766,7 @@ textarea {
 
 .menu-item {
     padding: 20px;
+    white-space: nowrap;
 }
 
 .menu-item:hover {
