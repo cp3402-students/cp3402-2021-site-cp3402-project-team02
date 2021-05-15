@@ -6,9 +6,12 @@ The following `site.md` file contains instructions on how a website maintainer c
 2. [Customising footer icons](#customising-footer-icons)
 3. [Adding media to the media player](#adding-media-to-the-media-player)
 4. [Changing the logo](#changing-the-logo)
-5. [Adding a slideshow](#adding-a-slideshow)
-6. [Adding a Facebook feed](#adding-a-facebook-feed)
-7. [Listening for repository changes](#listening-for-repository-changes)
+5. [Create navigation menu](#create-navigation-menu)
+6. [Create a page](#create-a-page)
+7. [Create a post](#create-a-post)
+8. [Adding a slideshow](#adding-a-slideshow)
+9. [Adding a Facebook feed](#adding-a-facebook-feed)
+10. [Listening for repository changes](#listening-for-repository-changes)
 ___
 ## Required plugins
 The following plugins must be installed for the website to function as expected.
@@ -38,6 +41,15 @@ The Jazzy theme allows for an audio file to be added below the image slider bann
 1. In the WordPress admin panel select **Appearance > Customize > Site Identity** from the left navigation sidebar.
 2. Click **Select logo** and upload the logo you wish to use for the website.
 3. Click **publish** to save and publish your changes.
+
+## Create navigation menu
+TODO
+
+## Create a page
+TODO
+
+## Create a post
+TODO
 
 ## Adding a slideshow
 The Jazzy theme allows for an interactive slideshow to be displayed above the navigation bar. Follow the steps below to do this.
