@@ -26,13 +26,15 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'jazzy' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php the_custom_logo(); ?>
 
-            <?php
-            $slider_id = get_theme_mod( 'slider-id' );
-            echo do_shortcode('[metaslider id="' . $slider_id . '"]');
-            ?>
+        <?php $sliderId = get_theme_mod( 'slider-id' ); ?>
+
+		<div class="site-branding <?php if (!$sliderId) echo "site-branding-padding" ?>">
+			<?php
+            the_custom_logo();
+
+            echo do_shortcode('[metaslider id="' . $sliderId . '"]');
+			?>
         </div><!-- .site-branding -->
 
         <div class="media-player">
