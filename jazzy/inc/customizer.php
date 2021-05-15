@@ -83,6 +83,19 @@ function jazzy_customize_register( $wp_customize ) {
     // email
     $wp_customize->add_setting( 'email-address', array( 'default' => ''));
     $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'email-address', array( 'label' => __( 'Email address', 'jazzy'), 'section' => 'footer-socials', 'settings' => 'email-address', )));
+
+    // Footer Text
+    $wp_customize->add_section(
+        'footer-text',
+        array(
+            'title' => __('Footer Text', 'jazzy'),
+            'priority' => 30,
+            'description' => __('Add text to the footer.')
+        )
+    );
+
+    $wp_customize->add_setting( 'footer-text', array( 'default' => '' ) );
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'footer-text', array( 'label' => __( 'Footer text', 'jazzy' ), 'section' => 'footer-text', 'settings' => 'footer-text', ) ) );
 }
 add_action( 'customize_register', 'jazzy_customize_register' );
 
