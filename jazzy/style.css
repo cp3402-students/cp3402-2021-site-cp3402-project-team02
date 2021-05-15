@@ -706,6 +706,10 @@ textarea {
     align-items: center;
 }
 
+.site-branding-padding {
+    padding: 200px;
+}
+
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
@@ -762,6 +766,7 @@ textarea {
 
 .menu-item {
     padding: 20px;
+    white-space: nowrap;
 }
 
 .menu-item:hover {
@@ -996,7 +1001,8 @@ textarea {
     display: inline-block;
     width: 25%;
     height: auto;
-    margin: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* Captions
