@@ -6,9 +6,9 @@ The following `site.md` file contains instructions on how a website maintainer c
 2. [Customising footer icons](#customising-footer-icons)
 3. [Adding media to the media player](#adding-media-to-the-media-player)
 4. [Changing the logo](#changing-the-logo)
-5. [Create navigation menu](#create-navigation-menu)
-6. [Create a page](#create-a-page)
-7. [Create a post](#create-a-post)
+5. [Creating navigation menu](#creating-navigation-menu)
+6. [Creating a page](#creating-a-page)
+7. [Creating a post](#creating-a-post)
 8. [Adding a slideshow](#adding-a-slideshow)
 9. [Adding a Facebook feed](#adding-a-facebook-feed)
 10. [Listening for repository changes](#listening-for-repository-changes)
@@ -42,13 +42,13 @@ The Jazzy theme allows for an audio file to be added below the image slider bann
 2. Click **Select logo** and upload the logo you wish to use for the website.
 3. Click **publish** to save and publish your changes.
 
-## Create navigation menu
+## Creating navigation menu
 TODO
 
-## Create a page
+## Creating a page
 TODO
 
-## Create a post
+## Creating a post
 TODO
 
 ## Adding a slideshow
