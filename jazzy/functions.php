@@ -54,12 +54,6 @@ if ( ! function_exists( 'jazzy_setup' ) ) :
 			)
 		);
 
-		// Add custom footer menu
-        function wpb_custom_new_menu() {
-            register_nav_menu('footer-menu',__( 'Footer Menu' ));
-        }
-        add_action( 'init', 'wpb_custom_new_menu' );
-
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
