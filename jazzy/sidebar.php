@@ -11,9 +11,9 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
 ?>
-<button class="button-primary sidebar-toggle" onclick="openNav()"><i class="fab fa-facebook-square"> Feed</i></button>
+<button class="button-primary sidebar-toggle" onclick="openNav()"><i class="fab fa-facebook-square"></i> Feed</button>
 <div id="sidebar" id="secondary" class="widget-area sidebar">
-    <button class="button-primary close-btn" onclick="closeNav()"><i class="fas fa-times"> Close</i></button>
+    <button class="button-primary close-btn" onclick="closeNav()"><i class="fas fa-times"></i> Close</button>
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div><!-- #secondary -->
 
