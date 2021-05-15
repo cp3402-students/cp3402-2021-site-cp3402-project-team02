@@ -1,10 +1,10 @@
 # Maintaining the site
 Follow the instructions below to maintain the site.
 
-#### Table of Contents  
-1. Required plugins
-2. Footer customisation
-3. Media player customisation
+## Table of contents  
+1. [Required plugins](#required-plugins)
+2. [Footer customisation](#footer-customisation)
+3. [Media player customisation](#media-player-customisation)
 ___
 ## Required plugins
 The following plugins must be installed for the website to function as expected. Please install them and follow the extra steps where required.

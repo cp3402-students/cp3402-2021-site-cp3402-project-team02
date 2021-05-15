@@ -1,12 +1,12 @@
 # Theme Deployment
 The following instructions provide a description of the development and deployment workflow.
 
-#### Table of Contents  
-1. Required software
-2. Local development environment setup
-3. Project management
-4. Version control
-5. Deployment & Web Hosting
+## Table of contents
+1. [Required software](#required-software)
+2. [Local development environment setup](#local-development-environment-setup)
+3. [Project management](#project-management)
+4. [Version control](#version-control)
+5. [Deployment & Web Hosting](#deployment--web-hosting)
 ___
 ## Required software
 The following software is required for the theme development and deployment workflow.

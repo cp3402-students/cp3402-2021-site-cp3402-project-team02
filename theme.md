@@ -1,6 +1,10 @@
 # Maintaining the theme
 Follow the instructions below to maintain and develop the Jazzy theme.
 
+## Table of contents
+1. [Colour pallet](#colour-pallet)
+2. [Editing the CSS](#editing-the-css)
+___
 ## Colour pallet
 The Jazzy theme uses the following colours. You can view a the colour pallet online [here](https://coolors.co/bea025-dabc42-90be25-be5425-000000-ffffff).
 
