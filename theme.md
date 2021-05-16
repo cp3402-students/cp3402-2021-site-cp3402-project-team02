@@ -31,17 +31,28 @@ Customisable footer icons | Several links that are represented visually with an 
 MP3 media player | An `MP3` audio file can be added to an interactive media player below the media slideshow.
 Media slideshow | An interactive slideshow can be displayed above the navigation bar. 
 Facebook feed | An interactive Facebook feed can be displayed in a drawer sidebar. 
+Font Awesome | Icons can be easily added to components of the website by using the required Font Awesome plugin.
 
 ## Editing the CSS
 If you wish to make changes to the theme CSS you can do so by editing the `/jazzy/style.css` file.
 
 ## Editing the theme files
+Several functionality additions have been made to the Jazzy WordPress theme files. Follow the instructions below to make changes to these files. It is important that when making changes to the theme you follow the official [WordPress theme development guidelines](https://codex.wordpress.org/Theme_Development).
 
 ### Editing the theme header
-TODO
+The Jazzy theme header is included on all pages and posts of a WordPress website. Follow the instructions below if you wish to modify the header.
+
+1. With an IDE or text editor of your choice open the `/jazzy/header.php` file.
+2. Make desired changes to the file and save.
 
 ### Editing the theme body
-TODO
+The Jazzy body layout is included on all pages of a WordPress website. Follow the instructions below if you wish to modify the layout of a page.
+
+1. With an IDE or text editor of your choice open the `/jazzy/page.php` file.
+2. Make desired changes to the file and save.
 
 ### Editing the theme footer
-TODO
+The Jazzy theme footer is included on all pages and posts of a WordPress website. Follow the instructions below if you wish to modify the footer.
+
+1. With an IDE or text editor of your choice open the `/jazzy/footer.php` file.
+2. Make desired changes to the file and save.

@@ -6,12 +6,10 @@ The following `site.md` file contains instructions on how a website maintainer c
 2. [Customising footer icons](#customising-footer-icons)
 3. [Adding media to the media player](#adding-media-to-the-media-player)
 4. [Changing the logo](#changing-the-logo)
-5. [Creating navigation menu](#creating-navigation-menu)
-6. [Creating a page](#creating-a-page)
-7. [Creating a post](#creating-a-post)
-8. [Adding a slideshow](#adding-a-slideshow)
-9. [Adding a Facebook feed](#adding-a-facebook-feed)
-10. [Listening for repository changes](#listening-for-repository-changes)
+5. [Creating a navigation menu](#creating-a-navigation-menu)
+6. [Adding a slideshow](#adding-a-slideshow)
+7. [Adding a Facebook feed](#adding-a-facebook-feed)
+8. [Listening for repository changes](#listening-for-repository-changes)
 ___
 ## Required plugins
 The following plugins must be installed for the website to function as expected.
@@ -42,14 +40,15 @@ The Jazzy theme allows for an audio file to be added below the image slider bann
 2. Click **Select logo** and upload the logo you wish to use for the website.
 3. Click **publish** to save and publish your changes.
 
-## Creating navigation menu
-TODO
+## Creating a navigation menu
+The Jazzy theme allows for a multi-level primary navigation menu to be set. Follow the steps below to do this.
 
-## Creating a page
-TODO
-
-## Creating a post
-TODO
+1. In the WordPress admin panel select **Appearance > Menus** from the left navigation sidebar.
+2. Click the **create a new menu** link.
+3. Enter a name for the menu, we suggest using the name **Primary Menu**.
+4. Under the menu settings make sure the **Display location** is set to **Primary**.
+5. Click the **Create Menu** button to create the menu.
+6. Add items to your menu as desired and click **Save Menu** when done.
 
 ## Adding a slideshow
 The Jazzy theme allows for an interactive slideshow to be displayed above the navigation bar. Follow the steps below to do this.
