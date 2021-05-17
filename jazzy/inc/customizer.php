@@ -11,28 +11,28 @@
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
 function jazzy_customize_register( $wp_customize ) {
-	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
-	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
-	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+    $wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
+    $wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
+    $wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 
-	if ( isset( $wp_customize->selective_refresh ) ) {
-		$wp_customize->selective_refresh->add_partial(
-			'blogname',
-			array(
-				'selector'        => '.site-title a',
-				'render_callback' => 'jazzy_customize_partial_blogname',
-			)
-		);
-		$wp_customize->selective_refresh->add_partial(
-			'blogdescription',
-			array(
-				'selector'        => '.site-description',
-				'render_callback' => 'jazzy_customize_partial_blogdescription',
-			)
-		);
-	}
+    if ( isset( $wp_customize->selective_refresh ) ) {
+        $wp_customize->selective_refresh->add_partial(
+            'blogname',
+            array(
+                'selector'        => '.site-title a',
+                'render_callback' => 'jazzy_customize_partial_blogname',
+            )
+        );
+        $wp_customize->selective_refresh->add_partial(
+            'blogdescription',
+            array(
+                'selector'        => '.site-description',
+                'render_callback' => 'jazzy_customize_partial_blogdescription',
+            )
+        );
+    }
 
-	// image slider
+    // image slider
     $wp_customize->add_section(
         'image-slider',
         array(
@@ -143,6 +143,29 @@ function jazzy_customize_register( $wp_customize ) {
             )
         )
     );
+
+    // Footer Text
+    $wp_customize->add_section(
+        'footer-text',
+        array(
+            'title' => __('Footer Text', 'jazzy'),
+            'priority' => 30,
+            'description' => __('Add text to the footer.')
+        )
+    );
+
+    $wp_customize->add_setting( 'footer-text', array( 'default' => '' ) );
+    $wp_customize->add_control(
+        new WP_Customize_Control(
+            $wp_customize,
+            'footer-text',
+            array(
+                'label' => __( 'Footer text', 'jazzy' ),
+                'section' => 'footer-text',
+                'settings' => 'footer-text'
+                )
+        ) 
+    );
 }
 add_action( 'customize_register', 'jazzy_customize_register' );
 
@@ -152,7 +175,7 @@ add_action( 'customize_register', 'jazzy_customize_register' );
  * @return void
  */
 function jazzy_customize_partial_blogname() {
-	bloginfo( 'name' );
+    bloginfo( 'name' );
 }
 
 /**
@@ -161,13 +184,13 @@ function jazzy_customize_partial_blogname() {
  * @return void
  */
 function jazzy_customize_partial_blogdescription() {
-	bloginfo( 'description' );
+    bloginfo( 'description' );
 }
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function jazzy_customize_preview_js() {
-	wp_enqueue_script( 'jazzy-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
+    wp_enqueue_script( 'jazzy-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
 }
 add_action( 'customize_preview_init', 'jazzy_customize_preview_js' );

@@ -36,10 +36,7 @@
     <div class="site-info">
         <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jazzy' ) ); ?>">
         </a>
-        <?php
-        /* translators: 1: Theme name, 2: Theme author. */
-        printf( esc_html__( 'Theme: %1$s by %2$s', 'jazzy' ), 'jazzy', '<a href="https://github.com/cp3402-students/cp3402-2021-site-cp3402-project-team02">Group02</a>' );
-        ?>
+        <?php echo ( get_theme_mod( 'footer-text' ) ); ?>
     </div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->
