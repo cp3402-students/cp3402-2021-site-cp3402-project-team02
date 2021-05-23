@@ -723,6 +723,7 @@ textarea {
     list-style: none;
     margin: 0;
     padding-left: 0;
+    text-decoration: underline;
 }
 
 .main-navigation ul ul {
